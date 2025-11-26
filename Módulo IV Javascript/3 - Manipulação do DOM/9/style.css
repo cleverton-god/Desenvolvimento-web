@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+}
+
+#mensagem {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-weight: bold;
+    display: none;
+    border-radius: 5px;
+}
+
+.sucesso {
+    background: #c8f7c5;
+    color: #2b7a2f;
+}
+
+.erro {
+    background: #f8c5c5;
+    color: #7a2f2f;
+}

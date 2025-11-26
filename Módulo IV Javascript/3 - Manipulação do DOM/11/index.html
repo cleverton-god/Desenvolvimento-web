@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuição de Pontos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Sistema de Distribuição de Pontos</h1>
+
+    <p id="pontosRestantes">Pontos restantes: 10</p>
+
+    <div class="atributo">
+        <h3>Força</h3>
+        <button class="menos" data-atributo="forca">–</button>
+        <span id="forca">0</span>
+        <button class="mais" data-atributo="forca">+</button>
+    </div>
+
+    <div class="atributo">
+        <h3>Agilidade</h3>
+        <button class="menos" data-atributo="agilidade">–</button>
+        <span id="agilidade">0</span>
+        <button class="mais" data-atributo="agilidade">+</button>
+    </div>
+
+    <div class="atributo">
+        <h3>Inteligência</h3>
+        <button class="menos" data-atributo="inteligencia">–</button>
+        <span id="inteligencia">0</span>
+        <button class="mais" data-atributo="inteligencia">+</button>
+    </div>
+
+    <button id="confirmar">Confirmar Distribuição</button>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

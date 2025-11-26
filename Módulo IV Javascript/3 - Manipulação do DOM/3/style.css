@@ -1,0 +1,10 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background-color:blue;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}

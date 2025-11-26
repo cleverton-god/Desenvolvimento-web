@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#btn-menu {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#menu {
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    background: #f0f0f0;
+    width: 150px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#menu li:last-child {
+    border-bottom: none;
+}
+
+.fechado {
+    display: none;
+}
