@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#quiz {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.quiz-btn {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+}
